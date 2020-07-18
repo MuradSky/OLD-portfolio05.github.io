@@ -1144,7 +1144,7 @@ button {
                 justify-content: center; } }
   .article__title {
     position: relative;
-    text-transform: uppercase
+    text-transform: uppercase;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14;
