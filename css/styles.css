@@ -1821,7 +1821,7 @@ textarea:focus:-ms-input-placeholder {
             transform: scale(1); }
 
 .search__inner {
-  padding: 150px 0 0 0;
+  padding: 250px 0 0 0;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -1829,7 +1829,9 @@ textarea:focus:-ms-input-placeholder {
           flex-direction: column;
   -webkit-box-align: center;
           align-items: center; }
-
+  @media (max-width: 1000px) {
+    .search__inner {
+      padding: 150px 0 0 0; } }
 #search__arrow {
   width: 15px;
   height: 15px; }
